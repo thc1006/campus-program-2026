@@ -1,0 +1,46 @@
+# .github/ISSUE_TEMPLATE/task.yml
+name: "Task"
+description: "可直接執行的任務"
+title: "[AREA][Task] "
+labels: ["type/task"]
+body:
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - uav-licensing
+        - uav-prototype
+        - campus-stakeholders
+        - funding
+        - competition-pitch
+        - team-ops
+        - personal-plan
+    validations:
+      required: true
+  - type: input
+    id: owner
+    attributes:
+      label: Owner
+      placeholder: "例如：hsiu-chi / partner"
+    validations:
+      required: true
+  - type: input
+    id: due
+    attributes:
+      label: Due date
+      placeholder: "YYYY-MM-DD"
+  - type: textarea
+    id: context
+    attributes:
+      label: Context / 背景
+      description: "這件事從哪裡來？（可貼逐字稿段落/連結）"
+    validations:
+      required: true
+  - type: textarea
+    id: accept
+    attributes:
+      label: Acceptance criteria / 驗收標準
+      placeholder: "- [ ] 產出 X\n- [ ] 跟 Y 確認完\n- [ ] 文件放到 docs/..."
+    validations:
+      required: true
