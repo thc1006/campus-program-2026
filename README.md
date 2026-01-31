@@ -1,8 +1,4 @@
-這份 `README.md` 是基於會議內容整理的專案架構文件。我將雜亂的討論點轉化為**專案目標**、**組織架構**、**當前任務**與**里程碑**，適合放在 GitHub/GitLab 的首頁或是 Notion 的 Team Wiki 中。
-
----
-
-# [Project Name]: Campus Integration & Drone Innovation
+# Campus Integration & Drone Innovation
 
 ## 專案概述 (Overview)
 
